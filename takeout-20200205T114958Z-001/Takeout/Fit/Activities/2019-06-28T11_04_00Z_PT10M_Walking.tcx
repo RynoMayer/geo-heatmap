@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TrainingCenterDatabase
+    xmlns="http://www.garmin.com/xmlschemas/TrainingCenterDatabase/v2"
+    xmlns:ns2="http://www.garmin.com/xmlschemas/UserProfile/v2"
+    xmlns:ns3="http://www.garmin.com/xmlschemas/ActivityExtension/v2"
+    xmlns:ns4="http://www.garmin.com/xmlschemas/ProfileExtension/v1"
+    xmlns:ns5="http://www.garmin.com/xmlschemas/ActivityGoals/v1"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.garmin.com/xmlschemas/TrainingCenterDatabase/v2 http://www.garmin.com/xmlschemas/TrainingCenterDatabasev2.xsd">
+    <Activities>
+        <Activity Sport="Other">
+            <Id>2019-06-28T11:04:00.000Z</Id>
+            <Notes>Walking</Notes>
+            <Lap StartTime="2019-06-28T11:04:00.000Z">
+                <Track>
+                    <Trackpoint>
+                        <DistanceMeters>0.0</DistanceMeters>
+                        <Time>2019-06-28T11:04:00.000Z</Time>
+                    </Trackpoint>
+                    <Trackpoint>
+                        <DistanceMeters>257.6534729003906</DistanceMeters>
+                        <Time>2019-06-28T11:06:46.766Z</Time>
+                        <Position>
+                            <LatitudeDegrees>-33.9764045</LatitudeDegrees>
+                            <LongitudeDegrees>18.464613</LongitudeDegrees>
+                        </Position>
+                        <AltitudeMeters>67.9000015258789</AltitudeMeters>
+                    </Trackpoint>
+                    <Trackpoint>
+                        <DistanceMeters>646.28125</DistanceMeters>
+                        <Time>2019-06-28T11:10:58.305Z</Time>
+                        <Position>
+                            <LatitudeDegrees>-33.9735179</LatitudeDegrees>
+                            <LongitudeDegrees>18.4634136</LongitudeDegrees>
+                        </Position>
+                        <AltitudeMeters>60.099998474121094</AltitudeMeters>
+                    </Trackpoint>
+                    <Trackpoint>
+                        <DistanceMeters>927.0000610351562</DistanceMeters>
+                        <Time>2019-06-28T11:14:00.000Z</Time>
+                    </Trackpoint>
+                </Track>
+                <DistanceMeters>927.0000610351562</DistanceMeters>
+                <TotalTimeSeconds>600.0</TotalTimeSeconds>
+                <Calories>32.0</Calories>
+                <Intensity>Active</Intensity>
+                <TriggerMethod>Manual</TriggerMethod>
+            </Lap>
+        </Activity>
+    </Activities>
+    <Author xsi:type="Application_t">
+        <Name>Google Fit</Name>
+        <Build>
+            <Version>
+                <VersionMajor>0</VersionMajor>
+                <VersionMinor>0</VersionMinor>
+                <BuildMajor>0</BuildMajor>
+                <BuildMinor>0</BuildMinor>
+            </Version>
+        </Build>
+        <LangID>en</LangID>
+        <PartNumber>000-00000-00</PartNumber>
+    </Author>
+</TrainingCenterDatabase>
